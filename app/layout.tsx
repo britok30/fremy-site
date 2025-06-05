@@ -34,7 +34,30 @@ export const metadata = {
   title: "Fremy Rosso | Entrepreneur & Real Estate Strategist",
   description:
     "Entrepreneur, real estate strategist, and founder of multiple ventures focused on reshaping the way people invest, travel, and connect with opportunity.",
-  generator: "v0.dev",
+  openGraph: {
+    title: "Fremy Rosso | Entrepreneur & Real Estate Strategist",
+    description:
+      "Entrepreneur, real estate strategist, and founder of multiple ventures focused on reshaping the way people invest, travel, and connect with opportunity.",
+    url: "https://fremyrosso.com",
+    siteName: "Fremy Rosso",
+    images: [
+      {
+        url: "/images/fr.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Fremy Rosso - Entrepreneur & Real Estate Strategist",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Fremy Rosso | Entrepreneur & Real Estate Strategist",
+    description:
+      "Entrepreneur, real estate strategist, and founder of multiple ventures focused on reshaping the way people invest, travel, and connect with opportunity.",
+    images: ["/images/fr.jpg"],
+  },
 };
 
 export default function RootLayout({
